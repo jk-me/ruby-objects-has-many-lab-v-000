@@ -21,7 +21,7 @@ class Author
     @posts 
   end
   
-  def post_count 
+  def self.post_count 
     l=0 
     @@authors.each{|a| l+=a.posts.length}
     l
