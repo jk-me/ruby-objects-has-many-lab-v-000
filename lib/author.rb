@@ -17,6 +17,9 @@ class Author
     n.author=self 
     @posts << n 
   end 
+  def posts 
+    @posts 
+  end
   
   def post_count 
     l=0 
