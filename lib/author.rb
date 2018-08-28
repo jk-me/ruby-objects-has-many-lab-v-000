@@ -4,4 +4,9 @@ class Author
     @name=name
     @posts =[]
   end
+  def add_post 
+    
+  def add_post_by_title 
+  
+  def post_count 
 end
