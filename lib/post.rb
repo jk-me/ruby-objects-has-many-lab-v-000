@@ -6,6 +6,7 @@ class Post
     @title=title
     @@all<< self
   end
+  
   def author_name 
     if @author==nil 
       return nil 
