@@ -22,4 +22,5 @@ class Author
     l=0 
     @@authors.each{|a| l+=a.posts.length}
     l
+  end
 end
