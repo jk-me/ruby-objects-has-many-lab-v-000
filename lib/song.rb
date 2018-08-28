@@ -5,6 +5,12 @@ class Song
     @name=name
     @@all << self 
   end
-  def name 
+  def artist_name
+    if @artist = nil 
+      return nil
+    else 
+      @artist.name 
+    end
+  end
     
 end 
